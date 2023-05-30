@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.13;
 
-contract EtherUnits {
+contract Ternary {
     function foo(uint x) public pure returns (uint) {
         if (x < 10) {
             return 0;
