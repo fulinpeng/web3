@@ -53,7 +53,7 @@ contract Base {
     // This function will not compile since we're trying to call
     // an external function here.
     // function testExternalFunc() public pure returns (string memory) {
-    //     return externalFunc();
+    //     return externalFunc(); // err: ndeclared identifier. Did you mean "internalFunc" or "externalFunc"?
     // }
 
     // State variables
@@ -61,7 +61,7 @@ contract Base {
     string internal internalVar = "my internal variable";
     string public publicVar = "my public variable";
     // State variables cannot be external so this code won't compile.
-    // string external externalVar = "my external variable";
+    // string external externalVar = "my external variable"; // err： Expected identifier but got 'external'
 }
 
 contract Child is Base {
