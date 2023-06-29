@@ -1,3 +1,8 @@
+### 学习文档
+
+- solidity手册：https://docs.soliditylang.org/en/v0.8.13/
+- solidity基础语法部分参考了：https://solidity-by-example.org/
+
 ### 事件
 
 一个事件内可以最多将三个字段修饰为indexed，当使用indexed关键字时，更加方便索引，并且：
@@ -23,3 +28,5 @@
 3. Log是经由链上校验的，无法造假，因为一笔交易的ReceiptHash是存在链上的（Header中）
 
 ![image-20220802140701198](https://duke-typora.s3.ap-southeast-1.amazonaws.com/uPic/image-20220802140701198.png)
+
+
