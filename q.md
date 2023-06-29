@@ -29,4 +29,11 @@
 
 ![image-20220802140701198](https://duke-typora.s3.ap-southeast-1.amazonaws.com/uPic/image-20220802140701198.png)
 
+### 什么是 EOA CA
+外部账户，Externally Owned Accounts，简称EOA，它拥有私钥，其codeHash为空，可主动发起交易。
+
+合约账户，Contact Account，简称CA，它没有私钥，其codeHash非空。
+
+http://www.kosamet.cn/4533.html
+
 
