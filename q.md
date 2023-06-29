@@ -34,6 +34,9 @@
 
 合约账户，Contact Account，简称CA，它没有私钥，其codeHash非空。
 
+- EOA：Externally Owned Account，与一个私钥一一对应，例如小狐狸里面的account1就是EOA
+- CA：Contract Account，合约账户，没有私钥与之对应，我们部署的合约就是一个CA，它也可以持有资金。
+
 http://www.kosamet.cn/4533.html
 
 
