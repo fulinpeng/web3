@@ -41,3 +41,16 @@
 http://www.kosamet.cn/4533.html
 
 
+### 待学习
+1. [assembly](./assembly汇编.sol)
+2. MerkleTreee
+3. signature
+4. permit
+5. [math](https://github.com/dukedaily/solidity-math-utils)
+6. timelock时间锁
+7. 可升级合约upgrade
+8. Event Log
+9. 合约自杀（selfdestruct）
+10. Permit2
+11. signature-EIP712
+
